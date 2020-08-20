@@ -11,13 +11,13 @@ import os
 def main():
     casting()
     channel, first_word, message, username = get_input()
-    icon_url, slack_username, webhook_url, default_channel = cast(first_word)
-    if first_word == 'scarydoor':
+    if first_word == 'scarydoor' or first_word == 'talesofinterest':
         first_word = random.choice(characters)
     elif first_word == 'talesofinterest':
         first_word = random.choice(characters)
     if not channel:
         channel = default_channel
+    icon_url, slack_username, webhook_url, default_channel = cast(first_word)
     quote = get_quote(first_word)
     if quote == "Wait a minute! Is that blimp accurate?":
         deliver_line(channel, icon_url, slack_username, quote, webhook_url)
