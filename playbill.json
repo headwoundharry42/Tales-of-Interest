@@ -1,0 +1,52 @@
+{
+        "fryspeaks": {
+            "username": ["Phillip J. Fry"],
+            "icon_url": ["https://i.pinimg.com/originals/0f/5b/59/0f5b59593fe426935bb7e97074ebcd70.png"],
+            "default_channel": "#futurama"
+        },
+        "leelaspeaks": {
+            "username": ["Turanga Leela"],
+            "icon_url": ["https://cdn.costumewall.com/wp-content/uploads/2018/10/leela.jpg"],
+            "default_channel": "#futurama"
+        },
+        "professorspeaks": {
+            "username": ["Professor Hubert J. Farnsworth"],
+            "icon_url": ["https://pbs.twimg.com/profile_images/757402367356612608/T1TISKPN_400x400.jpg"],
+            "default_channel": "#futurama"
+        },
+        "benderspeaks": {
+            "username": ["Bender Bending Rodriguez"],
+            "icon_url": ["https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-futurama-john-di-maggio.jpg"],
+            "default_channel": "#futurama"
+        },
+        "zoidbergspeaks": {
+            "username": ["Dr. John Zoidberg"],
+            "icon_url": ["https://shortcut-test2.s3.amazonaws.com/uploads/role/attachment/215589/default_default_dr-john-zoidberg.jpg"],
+            "default_channel": "#futurama"
+        },
+        "amyspeaks": {
+            "username": ["Amy Wong"],
+            "icon_url": ["https://vignette.wikia.nocookie.net/en.futurama/images/9/94/AmyWong.png/revision/latest/top-crop/width/360/height/360?cb=20170123190854"],
+            "default_channel": "#futurama"
+        },
+        "zappspeaks": {
+            "username": ["Zapp Brannigan"],
+            "icon_url": ["https://pbs.twimg.com/profile_images/416447220980805632/Gvlg1Zxr_400x400.jpeg"],
+            "default_channel": "#futurama"
+        },
+        "hermesspeaks": {
+            "username": ["Hermes Conrad"],
+            "icon_url": ["https://static.tvmaze.com/uploads/images/medium_portrait/20/50143.jpg"],
+            "default_channel": "#futurama"
+        },
+        "nixonspeaks": {
+            "username": ["Richard Nixon's head"],
+            "icon_url": ["https://vignette.wikia.nocookie.net/villains/images/1/1c/The_Head_of_Richard_Nixon.png"],
+            "default_channel": "#futurama"
+        },
+        "morbospeaks": {
+            "username": ["Morbo"],
+            "icon_url": ["https://pbs.twimg.com/profile_images/1201708695706456066/NfmPxapd_400x400.jpg"],
+            "default_channel": "#futurama"
+        }
+    }
