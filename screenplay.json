@@ -3,18 +3,27 @@
     "Space. It seems to go on and on forever. But then you get to the end and the gorilla starts throwing barrels at you.",
     "Shut up and take my money!",
     "I always thought at this point in my life _I'd_ be the one making the crank calls!",
-    "Wait a minute! Is that blimp accurate?"
+    "Wait a minute! Is that blimp accurate?",
+    "Wow! You got that off the Internet? In my day the Internet was only used to download pornography.",
+    "Hey! You have no right to criticise the 20th century. We gave the world the lightbulb, the steamboat and the cotton gin.",
+    "I know Big Vinnie said he was giving me the kiss of death but I still think he was gay.",
+    "You OK, Bender?"
   ],
   "leelaspeaks": [
     "Well, at least here you'll be treated with dignity. Now strip naked and get on the probulator.",
-    "Can't we get away in the ship?"
+    "Can't we get away in the ship?",
+    "Impressive. They're busting mad rhymes with an 80% success rate."
   ],
   "benderspeaks": [
     "Bite my shiny metal ass.",
-    "https://media.giphy.com/media/Br1X9wweT3Nrq/giphy.gif"
+    "https://media.giphy.com/media/Br1X9wweT3Nrq/giphy.gif",
+    "Hey, what kinda party is this? There's no booze and only one hooker.",
+    "Uh, hey, I'm no square but isn't that counter-indicated by my operations manual?"
   ],
   "professorspeaks": [
-    "Good news, everyone!"
+    "Good news, everyone!",
+    "Good news, everyone! Today you'll be delivering a crate of subpoenas to Sicily 8, the Mob Planet!",
+    "Good news, everyone. Tomorrow you'll be making a delivery to Ebola 9, the virus planet."
   ],
   "zoidbergspeaks": [
     "By the way, I took the liberty of fertilizing your caviar.",
@@ -30,12 +39,16 @@
     "Cham-pag-en?"
   ],
   "hermesspeaks": [
-    "I'm going to jump!"
+    "I'm going to jump!",
+    "Our electric bill's climbing faster than a green snake up a sugar cane."
   ],
   "nixonspeaks": [
     "AROOO"
   ],
   "morbospeaks": [
     "WINDMILLS DO NOT WORK THAT WAY!  Good night."
+  ],
+  "preacherbotspeaks": [
+    "Wretched sinner unit! The path to robot heaven lies here...in The Good Book 3.0!"
   ]
 }

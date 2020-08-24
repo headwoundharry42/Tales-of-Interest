@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import json
 from random import random
 import requests
@@ -51,6 +52,45 @@ def main():
         quote = "Do a flip!"
         icon_url, slack_username, webhook_url, dc = cast('benderspeaks')
         deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+    elif quote == "Wow! You got that off the Internet? In my day the Internet was only used to download pornography.":
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+        quote = "Actually that's still true."
+        icon_url, slack_username, webhook_url, dc = cast('professorspeaks')
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+    elif quote == "Hey! You have no right to criticise the 20th century. We gave the world the lightbulb, the steamboat and the cotton gin.":
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+        quote = "Those things are all from the 19th century."
+        icon_url, slack_username, webhook_url, dc = cast('leelaspeaks')
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+        quote = "Yeah, well, they probably just copied us."
+        icon_url, slack_username, webhook_url, dc = cast('fryspeaks')
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+    elif quote == "Impressive. They're busting mad rhymes with an 80% success rate.":
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+        quote = "I believe that qualifies as ill.  At least from a technical standpoint."
+        icon_url, slack_username, webhook_url, dc = cast('benderspeaks')
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+        quote = "Will you guys shut up? I'm trying to look cool."
+        icon_url, slack_username, webhook_url, dc = cast('fryspeaks')
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+    elif quote == "Wretched sinner unit! The path to robot heaven lies here...in The Good Book 3.0!":
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+        quote = "Hey! Do I preach to you when you're lying stoned in the gutter? No! So beat it!"
+        icon_url, slack_username, webhook_url, dc = cast('benderspeaks')
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+    elif quote == "I know Big Vinnie said he was giving me the kiss of death but I still think he was gay.":
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+        quote = "Did he use his tongue?"
+        icon_url, slack_username, webhook_url, dc = cast('leelaspeaks')
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+        quote = "A little."
+        icon_url, slack_username, webhook_url, dc = cast('fryspeaks')
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+    elif quote == "You OK, Bender?":
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
+        quote = "None of your business! Get off my back!"
+        icon_url, slack_username, webhook_url, dc = cast('benderspeaks')
+        deliver_line(channel, icon_url, slack_username, quote, webhook_url)
     else:
         deliver_line(channel, icon_url, slack_username, quote, webhook_url)
 
@@ -64,7 +104,7 @@ def casting():
     print(filename)
     with open(filename, 'r') as fin:
         lines = json.load(fin)
-    characters = [member for member in lines]
+    characters = [member for member in lines if member[1]]
 
     log(f"We have speaking parts for: {', '.join(characters)}")
 

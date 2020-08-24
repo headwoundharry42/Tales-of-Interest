@@ -48,5 +48,10 @@
             "username": ["Morbo"],
             "icon_url": ["https://pbs.twimg.com/profile_images/1201708695706456066/NfmPxapd_400x400.jpg"],
             "default_channel": "#futurama"
+        },
+        "preacherbotspeaks": {
+            "username": ["Preacherbot"],
+            "icon_url": ["https://i.ytimg.com/vi/xh8KSWRUQXA/maxresdefault.jpg"],
+            "default_channel": "#futurama"
         }
     }
