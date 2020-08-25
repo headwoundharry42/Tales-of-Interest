@@ -18,7 +18,10 @@
     "Bite my shiny metal ass.",
     "https://media.giphy.com/media/Br1X9wweT3Nrq/giphy.gif",
     "Hey, what kinda party is this? There's no booze and only one hooker.",
-    "Uh, hey, I'm no square but isn't that counter-indicated by my operations manual?"
+    "Uh, hey, I'm no square but isn't that counter-indicated by my operations manual?",
+	"Call me old fashioned, but I like a dump to as memorable as it is devastating",
+	"Have you ever tried simply turning of the TV, sitting down with your children, and hitting them?",
+	"Computer dating, its like pimping, but you rarely have to use the phrase 'Upside your head'."
   ],
   "professorspeaks": [
     "Good news, everyone!",
@@ -36,7 +39,8 @@
     "They never made wise use of the land. When my ancestor Reginald Wong landed here, they had no bingo parlors and only one prostitute."
   ],
   "zappspeaks": [
-    "Cham-pag-en?"
+    "Cham-pag-en?",
+	"I am the man with no name. Zapp Brannigan at your service!"
   ],
   "hermesspeaks": [
     "I'm going to jump!",
@@ -50,5 +54,10 @@
   ],
   "preacherbotspeaks": [
     "Wretched sinner unit! The path to robot heaven lies here...in The Good Book 3.0!"
+  ],
+  "hedonismbotspeaks": [
+	"I apologize for nothing.",
+	"I trust the orgy pit has been scraped and buttered.",
+	"Let us cavort like the greeks of old! You know the ones I mean."
   ]
 }
